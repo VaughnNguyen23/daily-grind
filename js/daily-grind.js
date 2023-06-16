@@ -68,7 +68,7 @@ switch(today){
         alt: "A picture of cold brew",
         color: "blue",
         day: "Monday",
-        desc: 'Cold brew to start your week off energized!',
+        desc: 'Start your week off energized!',
     };
     
     break;
