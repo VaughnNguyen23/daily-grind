@@ -29,8 +29,8 @@ function coffeeTemplate(coffee){
 
   return ` 
   <p>
-    		 <img src="${coffee.pic}" alt=""${coffee.alt}"" id="coffee" />
-            <strong class="feature">"${coffee.day}" Coffee Special:</strong> "${coffee.day}" daily coffee special is <strong class="feature">"${coffee.name}"</strong> "${coffee.desc}"</p>    
+    		<img src="${coffee.pic}" alt="${coffee.alt}" id="coffee" />
+            <strong class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>, ${coffee.desc}</p>   
  `;
   
 }
@@ -54,7 +54,7 @@ switch(today){
         alt: "A picture of Caramel latte",
         color: "Tan",
         day: "Sunday",
-        desc: 'Enjoy a caramel latte good for energy or a sweet desert!'
+        desc: 'Enjoy a caramel latte good for energy or a sweet desert!',
     };
     
     break;
@@ -68,7 +68,7 @@ switch(today){
         alt: "A picture of cold brew",
         color: "blue",
         day: "Monday",
-        desc: 'Yum!'
+        desc: 'Cold brew to start your week off energized!',
     };
     
     break;
@@ -82,7 +82,7 @@ switch(today){
         alt: "A picture of a bubble tea",
         color: "pink",
         day: "Tuesday",
-        desc: 'Bobalicious bubble tea enjoyed as a sweet treat!'
+        desc: 'Bobalicious bubble tea enjoyed as a sweet treat!',
     };
     
     break; 
@@ -96,7 +96,7 @@ switch(today){
         alt: "A picture of Mocha coffee",
         color: "Brown",
         day: "Wednesday",
-        desc: 'I love mocha delivers a sweet punch of energy!'
+        desc: 'I love mocha delivers a sweet punch of energy!',
     };
 
     break;
@@ -110,7 +110,7 @@ switch(today){
         alt: "A picture of drip coffee",
         color: "purple",
         day: "Thursday",
-        desc: 'I love hand crafted drip coffee!'
+        desc: 'I love hand crafted drip coffee!',
         };
     
     break;
@@ -124,7 +124,7 @@ switch(today){
         alt: "A picture of frappaccino",
         color: "orange",
         day: "Friday",
-        desc: 'I love frappaccino frosty and gets you through the day!'
+        desc: 'I love frappaccino frosty and gets you through the day!',
     };
     
     break;
@@ -138,7 +138,7 @@ switch(today){
         alt: "A picture of pumpkin spice latte",
         color: "green",
         day: "Saturday",
-        desc: 'Comforting Pumpkin spice latte to kick back and relax!'
+        desc: 'Comforting Pumpkin spice latte to kick back and relax!',
     };
     break;
 
